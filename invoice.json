@@ -1,0 +1,72 @@
+[
+    {
+        "id_invoice": "INV001",
+        "id_user": "U01",
+        "username": "Ririn",
+        "tanggal": "2025-10-23",
+        "jenis_transaksi": "Membership",
+        "deskripsi": "Membership Premium 1 Bulan",
+        "jumlah": 1,
+        "total": 150000
+    },
+    {
+        "id_invoice": "INV002",
+        "id_user": "U01",
+        "username": "Ririn",
+        "tanggal": "2025-10-23",
+        "jenis_transaksi": "Reservasi Kelas",
+        "deskripsi": "Kelas Yoga - Sesi Pagi",
+        "jumlah": 1,
+        "total": 50000
+    },
+    {
+        "id_invoice": "INV003",
+        "id_user": "U02",
+        "username": "Jojo",
+        "tanggal": "2025-10-23",
+        "jenis_transaksi": "Produk",
+        "deskripsi": "Minuman Protein Shake 500ml",
+        "jumlah": 2,
+        "total": 80000
+    },
+    {
+        "id_invoice": "INV004",
+        "id_user": "U01",
+        "username": "Ririn",
+        "tanggal": "2025-10-26",
+        "jenis_transaksi": "Produk",
+        "deskripsi": "jersey",
+        "jumlah": 2,
+        "total": 20000
+    },
+    {
+        "id_invoice": "INV005",
+        "id_user": "U02",
+        "username": "Jojo",
+        "tanggal": "2025-10-26",
+        "jenis_transaksi": "Produk",
+        "deskripsi": "Vitamin D",
+        "jumlah": 1,
+        "total": 35000
+    },
+    {
+        "id_invoice": "INV006",
+        "id_user": "U01",
+        "username": "Ririn",
+        "tanggal": "2025-10-26",
+        "jenis_transaksi": "Kelas",
+        "deskripsi": "Yoga",
+        "jumlah": 1,
+        "total": 80000
+    },
+    {
+        "id_invoice": "INV007",
+        "id_user": "U01",
+        "username": "Ririn",
+        "tanggal": "2025-10-26",
+        "jenis_transaksi": "Produk",
+        "deskripsi": "Protein Bar",
+        "jumlah": 2,
+        "total": 20000
+    }
+]

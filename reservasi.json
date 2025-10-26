@@ -1,0 +1,57 @@
+[
+    {
+        "id": "K001",
+        "nama_kelas": "Yoga",
+        "hari": "Jumat",
+        "waktu": "07.00 - 08.30",
+        "trainer": "Diana",
+        "kapasitas": 40,
+        "harga": 80000,
+        "lokasi": "Studio 1",
+        "peserta_terdaftar": 22
+    },
+    {
+        "id": "K002",
+        "nama_kelas": "Pilates",
+        "hari": "Senin",
+        "waktu": "07.00 - 09.00",
+        "trainer": "Lili",
+        "kapasitas": 20,
+        "harga": 120000,
+        "lokasi": "Studio 2",
+        "peserta_terdaftar": 15
+    },
+    {
+        "id": "K003",
+        "nama_kelas": "Zumba",
+        "hari": "Sabtu",
+        "waktu": "16.30 - 17.15",
+        "trainer": "Angela",
+        "kapasitas": 50,
+        "harga": 50000,
+        "lokasi": "Lapangan Merdeka",
+        "peserta_terdaftar": 45
+    },
+    {
+        "id": "K004",
+        "nama_kelas": "Weight Training",
+        "hari": "Selasa",
+        "waktu": "19.00 - 20.30",
+        "trainer": "Roger",
+        "kapasitas": 15,
+        "harga": 60000,
+        "lokasi": "Studio 4",
+        "peserta_terdaftar": 12
+    },
+    {
+        "id": "K011",
+        "nama_kelas": "Aerobik",
+        "hari": "Minggu",
+        "waktu": "20.00 - 21.00",
+        "trainer": "Eva",
+        "kapasitas": 45,
+        "harga": 60000,
+        "lokasi": "Studio 6",
+        "peserta_terdaftar": 34
+    }
+]

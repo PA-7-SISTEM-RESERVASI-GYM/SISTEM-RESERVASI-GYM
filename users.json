@@ -1,0 +1,20 @@
+[
+    {
+        "id_user": "U01",
+        "username": "Ririn",
+        "password": "12345",
+        "saldo": 620000
+    },
+    {
+        "id_user": "U02",
+        "username": "Jojo",
+        "password": "abcde",
+        "saldo": 255000
+    },
+    {
+        "id_user": "U003",
+        "username": "Yaya",
+        "password": "112233",
+        "saldo": 140000
+    }
+]

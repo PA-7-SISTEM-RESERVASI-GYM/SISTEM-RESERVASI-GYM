@@ -1,0 +1,26 @@
+[
+    {
+        "id": "MB01",
+        "nama_paket": "Silver Membership",
+        "durasi": "1 Bulan",
+        "harga": 150000,
+        "stok": 10,
+        "deskripsi": "Akses bebas ke gym selama 1 bulan dan 2 kelas gratis."
+    },
+    {
+        "id": "MB02",
+        "nama_paket": "Gold Membership",
+        "durasi": "3 Bulan",
+        "harga": 400000,
+        "stok": 8,
+        "deskripsi": "Akses penuh ke gym, kelas premium, dan 1 personal training session."
+    },
+    {
+        "id": "MB03",
+        "nama_paket": "Platinum Membership",
+        "durasi": "6 Bulan",
+        "harga": 750000,
+        "stok": 5,
+        "deskripsi": "Akses penuh ke gym + konsultasi nutrisi & personal trainer."
+    }
+]

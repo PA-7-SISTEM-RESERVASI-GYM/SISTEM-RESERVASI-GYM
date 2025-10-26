@@ -1,0 +1,17 @@
+[
+    {
+        "id_topup": "TP001",
+        "kode_topup": "GYM12345",
+        "nominal": 200000
+    },
+    {
+        "id_topup": "TP002",
+        "kode_topup": "GYM67890",
+        "nominal": 150000
+    },
+    {
+        "id_topup": "TP003",
+        "kode_topup": "GYM34567",
+        "nominal": 100000
+    }
+]

@@ -1,0 +1,86 @@
+[
+    {
+        "id": "P01",
+        "nama_produk": "jersey",
+        "harga": 10000,
+        "stok": 9,
+        "kategori": "perlengkapan"
+    },
+    {
+        "id": "P02",
+        "nama_produk": "Vitamin D",
+        "harga": 35000,
+        "stok": 27,
+        "kategori": "Nutrisi"
+    },
+    {
+        "id": "P03",
+        "nama_produk": "Energy Drink",
+        "harga": 100000,
+        "stok": 10,
+        "kategori": "Nutrisi"
+    },
+    {
+        "id": "P04",
+        "nama_produk": "Protein Bar",
+        "harga": 10000,
+        "stok": 8,
+        "kategori": "Nutrisi"
+    },
+    {
+        "id": "P05",
+        "nama_produk": "Granola Bar",
+        "harga": 150000,
+        "stok": 10,
+        "kategori": "Nutrisi"
+    },
+    {
+        "id": "P06",
+        "nama_produk": "Matras Yoga",
+        "harga": 150000,
+        "stok": 15,
+        "kategori": "Perlengkapan"
+    },
+    {
+        "id": "P07",
+        "nama_produk": "Gym Gloves",
+        "harga": 50000,
+        "stok": 15,
+        "kategori": "Perlengkapan"
+    },
+    {
+        "id": "P08",
+        "nama_produk": "Tumbler",
+        "harga": 90000,
+        "stok": 30,
+        "kategori": "Perlengkapan"
+    },
+    {
+        "id": "P09",
+        "nama_produk": "Handuk Kecil",
+        "harga": 50000,
+        "stok": 15,
+        "kategori": "Perlengkapan"
+    },
+    {
+        "id": "P10",
+        "nama_produk": "Kaos Olahraga",
+        "harga": 20000,
+        "stok": 16,
+        "kategori": "perlengkapan"
+    },
+    {
+        "id": "P11",
+        "nama_produk": "Kaos Kaki",
+        "harga": 56000,
+        "stok": 20,
+        "kategori": "Perlengkapan"
+    },
+    {
+        "id": "P20",
+        "nama_produk": "Nike",
+        "harga": 200000,
+        "stok": 10,
+        "kategori": "Perlengkapan"
+    }
+]
