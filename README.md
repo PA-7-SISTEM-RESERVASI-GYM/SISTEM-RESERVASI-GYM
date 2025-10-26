@@ -262,6 +262,7 @@ Jika pengguna memilih “ya”, maka sistem menampilkan pesan “Produk berhasil
 
 ### 5. Kembali
 <img width="351" height="266" alt="image" src="https://github.com/user-attachments/assets/a796ea44-904c-4cc2-897c-04cbfc5a9507" />
+
 Cuplikan ini menunjukan proses untuk kembali ke menu utama admin.
 
 ## 2. Manajemen Membership
@@ -295,6 +296,37 @@ Setelah konfirmasi, paket berhasil diedit.
 Sistem menampilkan daftar paket tersedia (Gold dengan durasi 1 jam, harga 500000, stok 2).
 Setelah memasukkan ID paket yang ingin dihapus dan konfirmasi, paket berhasil dihapus dan daftar menjadi kosong.
 
+## 3. Manajemen Reservasi
+<img width="432" height="304" alt="image" src="https://github.com/user-attachments/assets/f2fd5544-a8ef-4cce-ae3d-f1116094d89e" />
+
+Navigasi dari Menu Admin ke Manajemen Reservasi. Admin memilih opsi 3 untuk masuk ke menu Manajemen Reservasi yang menampilkan 5 pilihan: Lihat, Tambah, Edit, Hapus Reservasi, dan Kembali.
+
+### 1. Lihat Reservasi
+<img width="767" height="364" alt="Cuplikan layar 2025-10-26 223951" src="https://github.com/user-attachments/assets/abf274fe-d160-4c10-9a49-2bd81f4c4160" />
+
+
+Fitur Lihat Reservasi menampilkan daftar kelas tersedia dalam bentuk tabel lengkap dengan informasi: ID kelas, Nama Kelas, Hari, Waktu, Trainer, Kapasitas, Harga, Lokasi, dan Peserta Terdaftar. Contoh: Kelas Yoga di Studio 1 setiap Jumat pukul 07.00-08.30 dengan trainer Diana.
+
+### 2. Tambah Reservasi
+<img width="781" height="589" alt="Cuplikan layar 2025-10-26 224128" src="https://github.com/user-attachments/assets/33a3176f-74c7-4c99-8ec5-1bf8486b3efb" />
+
+Proses tambah reservasi baru untuk kelas Karate (K125). Admin menginput data: hari (senin), waktu kelas (11.00-12.30), nama trainer (Master King), kapasitas (20), harga (600000), lokasi (Dojo lantai 2), dan peserta terdaftar (12). Kelas baru berhasil ditambahkan ke daftar.
+
+### 3. Edit reservasi
+<img width="801" height="799" alt="Cuplikan layar 2025-10-26 224216" src="https://github.com/user-attachments/assets/f2b7b82f-1fd5-4401-a28c-4b6eed2d74ae" />
+
+
+Fitur edit reservasi kelas. Admin memilih kelas K125 (Karate) untuk diedit. Sistem menampilkan data lama dan meminta input baru. Admin mengubah nama trainer menjadi "Master Shifu", kapasitas menjadi 20, dan peserta terdaftar menjadi 12. Kelas berhasil diedit dengan konfirmasi perubahan.
+
+### 4. Hapus Reservasi
+<img width="795" height="728" alt="Cuplikan layar 2025-10-26 224248" src="https://github.com/user-attachments/assets/48b23ddf-ebbe-4ad5-b64c-ed1bcb251042" />
+
+Proses hapus reservasi kelas. Sistem menampilkan daftar kelas tersedia, admin memasukkan ID kelas yang ingin dihapus (K125 - Karate), mengkonfirmasi penghapusan, dan kelas berhasil dihapus dari sistem. Daftar kelas diperbarui tanpa kelas K125.
+
+### 5. Kembali
+<img width="442" height="305" alt="Cuplikan layar 2025-10-26 224304" src="https://github.com/user-attachments/assets/42884421-40d8-469e-8376-c8488517e65a" />
+
+Selesai mengelola reservasi, sistem kembali ke Menu Admin utama yang menampilkan 5 pilihan: Manajemen Produk, Manajemen Membership, Manajemen Reservasi, Manajemen Top Up, dan Kembali.
 
 
 
