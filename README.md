@@ -296,6 +296,11 @@ Setelah konfirmasi, paket berhasil diedit.
 Sistem menampilkan daftar paket tersedia (Gold dengan durasi 1 jam, harga 500000, stok 2).
 Setelah memasukkan ID paket yang ingin dihapus dan konfirmasi, paket berhasil dihapus dan daftar menjadi kosong.
 
+### 5. Kembali
+<img width="431" height="303" alt="Cuplikan layar 2025-10-26 223744" src="https://github.com/user-attachments/assets/4d78ec3c-3537-4622-a1bd-55c8bc74bc4f" />
+
+Selesai mengelola Membership, sistem kembali ke Menu Admin utama yang menampilkan 5 pilihan: Manajemen Produk, Manajemen Membership, Manajemen Reservasi, Manajemen Top Up, dan Kembali.
+
 ## 3. Manajemen Reservasi
 <img width="432" height="304" alt="image" src="https://github.com/user-attachments/assets/f2fd5544-a8ef-4cce-ae3d-f1116094d89e" />
 
@@ -328,11 +333,41 @@ Proses hapus reservasi kelas. Sistem menampilkan daftar kelas tersedia, admin me
 
 Selesai mengelola reservasi, sistem kembali ke Menu Admin utama yang menampilkan 5 pilihan: Manajemen Produk, Manajemen Membership, Manajemen Reservasi, Manajemen Top Up, dan Kembali.
 
+## 4. Manajemen Top Up
 
+<img width="565" height="357" alt="Cuplikan layar 2025-10-26 225622" src="https://github.com/user-attachments/assets/f6ac1fd2-2f95-47ed-9193-30ef622ed38e" />
 
+Navigasi dari Menu Admin ke Manajemen Top Up Saldo. Admin memilih opsi 4 untuk masuk ke menu Manajemen Top Up Saldo yang menampilkan 5 pilihan: Lihat Daftar Top Up, Tambah Kode Top Up, Edit Kode Top Up, Hapus Kode Top Up, dan Kembali.
 
+### 1. Lihat Daftar Top Up
+<img width="557" height="390" alt="Cuplikan layar 2025-10-26 225640" src="https://github.com/user-attachments/assets/b594ddd6-85f6-4f59-ace4-8134da679b97" />
 
+Fitur Lihat Daftar Top Up menampilkan tabel kode voucher top up yang tersedia dengan informasi: ID (TP001-TP004), Kode Top Up (GYM12345, GYM67890, dll), dan Nominal (200000, 150000, 100000, 500000).
 
+### 2. Tambah Kode Top Up
+<img width="570" height="560" alt="Cuplikan layar 2025-10-26 225659" src="https://github.com/user-attachments/assets/f2ef15b6-d3ee-4849-a583-24adad814ea8" />
+
+Proses tambah kode top up baru. Admin menginput ID (TP005), kode top up (GYM54321), dan nominal (1000000). Voucher top up baru berhasil ditambahkan dan ditampilkan dalam daftar dengan total 5 voucher tersedia.
+
+### 3. Edit Kode Top Up
+<img width="554" height="699" alt="Cuplikan layar 2025-10-26 225722" src="https://github.com/user-attachments/assets/497f2034-6629-4138-92fa-11cc5ca978f1" />
+
+Fitur edit kode top up. Admin memilih voucher TP005 untuk diedit. Sistem menampilkan data lama (kode: GYM54321, nominal: 1000000) dan meminta konfirmasi untuk lewati atau input baru. Setelah konfirmasi, data top up berhasil diedit.
+
+### 4. Hapus Kode Top Up
+<img width="563" height="747" alt="Cuplikan layar 2025-10-26 225741" src="https://github.com/user-attachments/assets/9406aca9-35c4-46e2-84c9-782295f5fac2" />
+
+Proses hapus kode top up. Sistem menampilkan daftar voucher tersedia, admin memasukkan ID yang ingin dihapus (TP005), mengkonfirmasi penghapusan (ya/tidak), dan voucher berhasil dihapus. Daftar diperbarui menjadi 4 voucher (TP001-TP004).
+
+### 5. 
+<img width="562" height="364" alt="Cuplikan layar 2025-10-26 225752" src="https://github.com/user-attachments/assets/a687fddc-37c2-4754-80a8-e439ca5d8d61" />
+
+Selesai mengelola top up saldo, sistem kembali ke Menu Admin utama yang menampilkan 4 pilihan: Manajemen Produk, Manajemen Membership, Manajemen Reservasi, Manajemen Top Up, dan Kembali.
+
+## 5. Kembali
+<img width="584" height="330" alt="Cuplikan layar 2025-10-26 230728" src="https://github.com/user-attachments/assets/d8ea942f-349c-467d-a0ec-7af6be949cd6" />
+
+Admin memilih opsi 5 (Kembali) dari Menu Admin untuk logout dan kembali ke Menu Utama. Sistem menampilkan 3 pilihan: Login, Registrasi, dan Keluar Aplikasi, menandakan admin telah berhasil keluar dari panel administrasi.
 
 
 
