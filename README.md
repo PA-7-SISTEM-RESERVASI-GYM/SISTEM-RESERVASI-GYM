@@ -197,17 +197,103 @@ Fungsi ini berfungsi untuk menampilkan struk transaksi terakhir dari pengguna. P
 
 Fungsi ini berfungsi untuk menampilkan seluruh riwayat transaksi dari pengguna. Program akan membaca data dari file invoice.json, lalu memfilter semua transaksi yang sesuai dengan username pengguna. Jika tidak ada transaksi, maka akan muncul pesan “Belum ada transaksi untuk user ini”. Jika ada, program menampilkan daftar invoice yang berisi ID, tanggal, jenis transaksi, deskripsi, jumlah item, dan total harga masing-masing transaksi. Setelah semua data ditampilkan, program akan menghitung total keseluruhan dari semua transaksi dan menampilkannya bersamaan dengan pesan “Terima kasih telah bertransaksi di GymFit”.
 
+# Cara Menjalankan Aplikasi Sistem Reservasi GYM
+
+## Login Sebagai Admin
+<img width="578" height="529" alt="image" src="https://github.com/user-attachments/assets/743abc83-bae9-4f85-bacd-a07da145cc01" />
+
+Proses dimulai dari Menu Utama dengan tiga opsi utama: Login, Registrasi, dan Keluar Aplikasi.
+Setelah pengguna berhasil login sebagai Admin, sistem akan menampilkan Menu Admin yang berisi beberapa fitur utama, yaitu:
+- Manajemen Produk
+- Manajemen Membership
+- Manajemen Reservasi
+- Manajemen Top Up
+- Kembali ke Menu Utama
+
+Interface ini dirancang dengan tampilan berbasis teks (CLI) untuk menjaga kesederhanaan, kecepatan akses, dan efisiensi penggunaan.
+
+### 1. Manajemen Produk
+<img width="576" height="378" alt="image" src="https://github.com/user-attachments/assets/cd2f1252-a161-47a0-acc8-348cac291d72" />
+
+Cuplikan ini menampilkan tahapan navigasi setelah Admin memilih opsi “Manajemen Produk” dari menu utama Admin.
+Pada bagian ini, sistem menampilkan lima fitur utama yang berfungsi untuk mengelola data produk, yaitu:
+- Lihat Produk – Menampilkan daftar produk yang tersedia dalam sistem.
+- Tambah Produk – Menambahkan data produk baru ke dalam database.
+- Edit Produk – Mengubah informasi produk yang sudah terdaftar.
+- Hapus Produk – Menghapus produk dari sistem.
+- Kembali – Mengembalikan pengguna ke menu Admin sebelumnya.
+
+Antarmuka ini berbasis Command Line Interface (CLI) untuk menjaga kesederhanaan, efisiensi, dan kemudahan akses bagi pengguna.
+
+#### 1. Lihat Produk
+<img width="564" height="526" alt="image" src="https://github.com/user-attachments/assets/17e59fd7-001f-44d3-af87-e6248a1901c2" />
+
+Cuplikan ini menampilkan hasil dari pilihan menu “Lihat Produk” pada bagian Manajemen Produk.
+Pada tahap ini, sistem menampilkan tabel berisi seluruh data produk yang tersimpan di database, dengan atribut sebagai berikut:
+- ID – Kode unik untuk setiap produk.
+- Nama Produk – Nama item yang dijual.
+- Harga – Harga satuan produk.
+- Stok – Jumlah produk yang tersedia.
+- Kategori – Jenis atau pengelompokan produk (misalnya Perlengkapan atau Nutrisi).
+
+Tampilan berbasis teks ini dibuat untuk memberikan kemudahan dalam memantau data produk secara cepat dan efisien langsung melalui terminal.
+
+### 2. Tambah Produk
+<img width="440" height="639" alt="Cuplikan layar 2025-10-26 220104" src="https://github.com/user-attachments/assets/23ca69b4-3d85-47a1-b9c0-1888ce417d67" />
+
+Cuplikan ini menunjukkan proses penambahan produk baru ke dalam sistem.
+Pengguna menginput data seperti ID produk, nama, harga, stok, dan kategori, kemudian sistem menyimpan data tersebut ke dalam file JSON.
+Setelah proses berhasil, sistem menampilkan pesan “Produk Baru berhasil ditambahkan!” dan memperbarui daftar produk yang tersedia di terminal.
+
+### 3. Edit Produk
+<img width="436" height="768" alt="Cuplikan layar 2025-10-26 220340" src="https://github.com/user-attachments/assets/1642d029-d54f-49a9-86b3-8a3f7a8df76a" />
+
+Gambar ini memperlihatkan proses pengeditan data produk yang sudah ada.
+Pengguna memasukkan ID produk yang ingin diedit, lalu sistem menampilkan data lama sebagai referensi.
+Setelah pengguna memperbarui informasi seperti nama, harga, atau stok, sistem menyimpan perubahan dan menampilkan pesan “Produk berhasil diedit!”.
+Fitur ini memungkinkan admin memperbarui informasi produk secara efisien melalui antarmuka CLI.
+
+### 4. Hapus Produk
+<img width="354" height="759" alt="Cuplikan layar 2025-10-26 220504" src="https://github.com/user-attachments/assets/d1b94859-4a6d-4dee-8341-a502a9e9f9cd" />
+
+Cuplikan ini menunjukkan proses penghapusan data produk dari sistem.
+Pengguna memasukkan ID produk yang ingin dihapus, kemudian sistem meminta konfirmasi sebelum benar-benar menghapus data dari file JSON.
+Jika pengguna memilih “ya”, maka sistem menampilkan pesan “Produk berhasil dihapus!” dan memperbarui daftar produk yang tersisa
+
+### 5. Kembali
+<img width="351" height="266" alt="image" src="https://github.com/user-attachments/assets/a796ea44-904c-4cc2-897c-04cbfc5a9507" />
+Cuplikan ini menunjukan proses untuk kembali ke menu utama admin.
+
+## 2. Manajemen Membership
+<img width="351" height="259" alt="image" src="https://github.com/user-attachments/assets/992d09b6-de1e-4f55-9acd-3e2219c9b47f" />
+
+Navigasi Menu Admin menampilkan 5 pilihan: Manajemen Produk, Manajemen Membership, Manajemen Reservasi, Manajemen Top Up, dan Kembali.
+Pengguna memilih opsi 2 untuk masuk ke menu Manajemen Membership.
+
+### 1. Lihat membership
+<img width="557" height="237" alt="Cuplikan layar 2025-10-26 221557" src="https://github.com/user-attachments/assets/cb58e2a0-df3a-45ae-aa10-07e15f074839" />
+
+Tampilan menu utama Manajemen Membership dengan 5 opsi: Lihat, Tambah, Edit, Hapus Membership, dan Kembali.
+Ditampilkan pula daftar paket membership tersedia dengan detail ID, nama paket (Gold), durasi (2 jam), harga (1000000), dan stok (1).
+
+### 2. Tambah Membership
+<img width="481" height="443" alt="Cuplikan layar 2025-10-26 222910" src="https://github.com/user-attachments/assets/0d09e69a-4275-4c06-97d9-e0c39f37864a" />
+
+Fitur tambah paket membership baru. Admin menginput data paket baru dengan ID 2, nama "Platinum", durasi 3 jam, harga 750000, stok 2, dan deskripsi "Bebas menggunakan semua alat".
+Sistem berhasil menambahkan paket dan menampilkannya dalam daftar paket membership tersedia.
+
+### 3. Edit Membership
+<img width="659" height="609" alt="Cuplikan layar 2025-10-26 222209" src="https://github.com/user-attachments/assets/5d7886c9-da64-4c8e-9d2d-cc22341f89f4" />
+
+Proses edit paket membership dengan ID 1 (Gold). Sistem menampilkan data lama dan meminta input baru untuk nama paket, durasi (diubah menjadi 1 jam), harga (500000), stok (2), dan deskripsi.
+Setelah konfirmasi, paket berhasil diedit.
+
+### 4. Fitur hapus paket membership.
+<img width="425" height="487" alt="Cuplikan layar 2025-10-26 222256" src="https://github.com/user-attachments/assets/17e2a3d5-680c-43da-bc98-0400d44ef2b8" />
 
 
-
-
-
-
-
-
-
-
-
+Sistem menampilkan daftar paket tersedia (Gold dengan durasi 1 jam, harga 500000, stok 2).
+Setelah memasukkan ID paket yang ingin dihapus dan konfirmasi, paket berhasil dihapus dan daftar menjadi kosong.
 
 
 
