@@ -369,6 +369,36 @@ Selesai mengelola top up saldo, sistem kembali ke Menu Admin utama yang menampil
 
 Admin memilih opsi 5 (Kembali) dari Menu Admin untuk logout dan kembali ke Menu Utama. Sistem menampilkan 3 pilihan: Login, Registrasi, dan Keluar Aplikasi, menandakan admin telah berhasil keluar dari panel administrasi.
 
+# USER
+## 1. Beli Produk
+![WhatsApp Image 2025-10-26 at 22 06 00](https://github.com/user-attachments/assets/a58e4fff-3a13-42fa-9a00-e74d5225a52c)
+
+Pada gambar pertama, pengguna mencoba membeli produk P04 (Protein Bar) melebihi stok, sehingga muncul pesan “Stok tidak cukup!”. Setelah memasukkan jumlah yang sesuai (2 buah, Rp20.000), transaksi berhasil dan saldo pengguna berkurang menjadi Rp10.000, dengan invoice baru INV004.
+
+![WhatsApp Image 2025-10-26 at 22 06 01](https://github.com/user-attachments/assets/a36c267d-6584-4b3b-8ca6-1e0f9712c947)
+
+Pada gambar kedua, pengguna membeli P03 (Energy Drink) sebanyak 9 buah seharga Rp900.000, namun karena saldo hanya Rp10.000, muncul pesan “Saldo tidak cukup!” dan transaksi dibatalkan otomatis.
+
+## 2. Reservasi
+![WhatsApp Image 2025-10-26 at 22 06 01 (1)](https://github.com/user-attachments/assets/c75eca09-9872-4613-a280-49b51e7998d3)
+
+Pada gambar pertama, pengguna mencoba reservasi kelas Weight Training (K004) untuk 23 orang, namun ditolak karena melebihi kapasitas. Setelah mengubah menjadi 5 peserta (Rp300.000), transaksi gagal karena saldo hanya Rp10.000, sehingga muncul pesan “Saldo tidak cukup!”.
+
+
+## 3. Isi Saldo
+![WhatsApp Image 2025-10-26 at 22 06 02](https://github.com/user-attachments/assets/bf387935-edbc-4194-8be1-3d44b1571561)
+
+Output ini menampilkan pengguna ingin melakukan Top Up Saldo (opsi 3) dengan kode GYM67890 sebesar Rp150.000. Setelah konfirmasi, muncul pesan “Top-up berhasil!” dan saldo meningkat menjadi Rp160.000, lalu program kembali ke menu utama.
+
+## 4. Invoice
+![WhatsApp Image 2025-10-26 at 22 06 00 (1)](https://github.com/user-attachments/assets/d90ed0f5-ba09-40bb-9bd7-d9302a2fd4a4)
+
+Output menunjukkan proses saat pengguna memilih menu “Lihat Invoice”. Sistem menampilkan daftar seluruh transaksi milik Yaya dalam bentuk struk dengan waktu cetak 26 Oktober 2025 pukul 22:02:38. Terdapat tiga invoice: INV001 (pembelian jersey Rp20.000), INV002 (reservasi Pilates untuk 5 orang Rp600.000), dan INV003 (reservasi Pilates untuk 10 orang Rp1.200.000). Total seluruh transaksi adalah Rp1.820.000, dan di akhir struk muncul pesan “Terima kasih telah bertransaksi di GymFit!”.
+
+
+
+
+
 
 
 
