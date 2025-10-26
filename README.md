@@ -359,7 +359,7 @@ Fitur edit kode top up. Admin memilih voucher TP005 untuk diedit. Sistem menampi
 
 Proses hapus kode top up. Sistem menampilkan daftar voucher tersedia, admin memasukkan ID yang ingin dihapus (TP005), mengkonfirmasi penghapusan (ya/tidak), dan voucher berhasil dihapus. Daftar diperbarui menjadi 4 voucher (TP001-TP004).
 
-### 5. 
+### 5. Kembali
 <img width="562" height="364" alt="Cuplikan layar 2025-10-26 225752" src="https://github.com/user-attachments/assets/a687fddc-37c2-4754-80a8-e439ca5d8d61" />
 
 Selesai mengelola top up saldo, sistem kembali ke Menu Admin utama yang menampilkan 4 pilihan: Manajemen Produk, Manajemen Membership, Manajemen Reservasi, Manajemen Top Up, dan Kembali.
